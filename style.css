@@ -1,0 +1,13 @@
+.intro {
+   font-style: bold;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: dimgrey;
+   font-size: 50px; 
+   text-align: center;
+}
+
+#homeCanvas {
+    display: flex;
+    width: 200px;
+    height: 200px ;
+}
