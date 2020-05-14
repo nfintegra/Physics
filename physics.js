@@ -26,5 +26,5 @@ var ballRadius = 10;
     if(y + dy > canvas.height-ballRadius || y + dy < ballRadius) {
     dy = -dy;
     }
-    }
+}
     setInterval(draw, 20);
