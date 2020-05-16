@@ -1,3 +1,9 @@
+.wrapper{
+    display:grid;
+    grid-template-rows: 70% 30%;
+    grid-row-gap: 1em;
+}
+
 .intro {
    font-style: bold;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
