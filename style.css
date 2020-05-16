@@ -1,7 +1,10 @@
-.wrapper{
+.grid{
     display:grid;
     grid-template-rows: 70% 30%;
-    grid-row-gap: 1em;
+}
+
+.grid{
+    border: #333 1px solid;
 }
 
 .intro {
