@@ -1,4 +1,8 @@
-var canvas = document.getElementById("homeCanvas");
+var canvas = document.getElementById('homeCanvas');
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
 var ctx = canvas.getContext("2d");
 var x = canvas.width/2;
 var y = canvas.height-30;

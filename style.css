@@ -3,7 +3,7 @@
     grid-template-rows: 70% 30%;
 }
 
-.grid{
+.grid > div{
     border: #333 1px solid;
 }
 
