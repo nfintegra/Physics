@@ -4,8 +4,8 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 var ctx = canvas.getContext("2d");
-var x = canvas.width/2;
-var y = canvas.height-30;
+var x = canvas.width;
+var y = canvas.height;
 var dx = -10;
 var dy = -8; 
 var ballRadius = 10;
