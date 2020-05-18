@@ -1,6 +1,6 @@
 .grid{
     display:grid;
-    grid-template-rows: 70%;
+    grid-template-rows: 70% 30%;
 }
 
 .grid > div{
@@ -15,10 +15,12 @@
    text-align: center;
 }
 
-#circle{
+.circle{
     align-content: center;
+    width: 100px;
+    height: 100px;
 }
 
-.scale {
+/*.scale {
     transform: scale(0);
 }

@@ -1,1 +1,1 @@
-gsap.to("#circle", {duration: 1, x: 100, repeat: 1, yoyo:true});
+gsap.to(".circle", {duration: 1, x: 100, repeat: 1, yoyo:true});
