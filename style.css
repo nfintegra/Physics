@@ -8,6 +8,7 @@
 }
 
 .intro {
+   display: grid;
    font-style: bold;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    color: dimgrey;
@@ -16,11 +17,8 @@
 }
 
 .circle{
-    align-content: center;
+    display: grid;
     width: 100px;
     height: 100px;
-}
-
-/*.scale {
-    transform: scale(0);
+    transform: scale(.5);
 }
