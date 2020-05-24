@@ -1,4 +1,10 @@
+const squares =document.querySelectorAll('.squares');
+
 anime({
-    targets: '#square1',
+    targets: 'squares',
+/* ['#squares', '#squares'] | '#squares, #squares' */
+
     translateX: 500
+  
 });
+
