@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-.loop, .loop-infinity, .loop-reverse, .loop-reverse-infinity, .loop-alternate-infinity  {
+.square{ 
     width: 60px;
     height: 60px;
     margin: 10px;
