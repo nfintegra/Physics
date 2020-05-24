@@ -1,4 +1,14 @@
-.grid{
+* { padding: 0;
+    margin: 0;
+}
+
+.squares {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    background-color: deepskyblue;
+}
+/* /.grid{
     display:grid;
     grid-template-rows: 70% 30%;
 }
@@ -16,9 +26,9 @@
    text-align: center;
 }
 
-.circle{
+#circle{
     display: grid;
     width: 100px;
     height: 100px;
     transform: scale(.5);
-}
+} */
