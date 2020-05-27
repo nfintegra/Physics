@@ -44,7 +44,7 @@ section{
 .welcome_text h2{
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 37%;
+    left: 27%;
     top: -100%;
     color: white;
     font-size: 8em;
