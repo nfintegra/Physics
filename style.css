@@ -33,14 +33,14 @@ section{
 }
 
 .welcome_text{
-    width: 400px;
-    height:112px;
+    width: 150px;
+    height:80px;
     overflow: hidden;
     text-align: center;
     position: relative;
 }
 
-.welcome_text, h2{
+.welcome_text h2{
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50%;
