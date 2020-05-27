@@ -19,6 +19,7 @@ section{
     width: 100%;
     z-index: 2;
     height: -60%;
+    top: -60%;
 }
 
 .content{
@@ -34,7 +35,7 @@ section{
 
 .welcome_text{
     width: 150px;
-    height:80px;
+    height:116px;
     overflow: hidden;
     text-align: center;
     position: relative;
