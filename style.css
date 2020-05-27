@@ -1,10 +1,48 @@
 * { padding: 0;
     margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+
 }
 
-.square{ 
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-    background-color: deepskyblue;
+section{
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+}
+.cover {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+}
+
+.content{
+    background-color: 161516;
+    height:100%;
+    width:100%;
+    position: absolute;
+    top:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_text{
+    width: 150px;
+    height:80px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.welcome_text h2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: -100%;
+    color: white;
+    font-size: 2.5em;
 }

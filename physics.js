@@ -1,67 +1,22 @@
-// const squares = document#querySelectorAll('#squares');
+document.addEventListener
+('DOMContentLoaded'), ()=>{
+  anime.timeline({
 
-// // const object = {
-// //     percentage: 0%,
-// //     number:0
-// // }
 
-// anime({
-//     targets: squares,
-// //    percentage: '150%',
-// //  ['#squares', '#squares'] | '#squares, #squares'
+  })
+  .add({
+    targets: '.cover',
+    height: ['60%','200%'],
+    top: ['-90%', '-100%'],
+    easing: 'easeOutCubic',
+    duration: '1200'
+  })
+  .add({
+    targets: 'welcome_text h2',
+    top: ['-150%','-50%'],
+    easing: 'easeOutQuad',
+    offset: '-=600';
+    duration: '700',
 
-//     translateX: 500
-  
-// });
-
-anime({ 
-        targets: '.square',
-        translateX: 270,
-        easing: 'easInOutSine',
-    });
-
-anime({
-    targets: '#loop',
-    // translateX: 270,
-    loop: 3,
-    // easing: 'easeInOutSine'
-  });
-  
-  anime({
-    targets: '#loop-infinity',
-    // translateX: 270,
-    loop: true,
-    // easing: 'easeInOutSine'
-  });
-  
-  anime({
-    targets: '#loop-reverse',
-    // translateX: 270,
-    loop: 3,
-    direction: 'reverse',
-    // easing: 'easeInOutSine'
-  });
-  
-  anime({
-    targets: '#loop-reverse-infinity',
-    // translateX: 270,
-    direction: 'reverse',
-    loop: true,
-    // easing: 'easeInOutSine'
-  });
-  
-  anime({
-    targets: '#loop-alternate',
-    // translateX: 270,
-    loop: 3,
-    direction: 'alternate',
-    // easing: 'easeInOutSine'
-  });
-  
-  anime({
-    targets: '#loop-alternate-infinity',
-    // translateX: 270,
-    direction: 'alternate',
-    loop: true,
-    // easing: 'easeInOutSine'
-  });
+  })
+}
