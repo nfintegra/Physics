@@ -34,8 +34,8 @@ section{
 }
 
 .welcome_text{
-    width: 800px;
-    height:416px;
+    width: 1000px;
+    height:216px;
     overflow: hidden;
     text-align: center;
     position: relative;
@@ -44,7 +44,7 @@ section{
 .welcome_text h2{
     position: absolute;
     transform: translate(-50%, -50%);
-    left: 27%;
+    left: 50%;
     top: -100%;
     color: white;
     font-size: 8em;
