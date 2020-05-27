@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded',
   })
   .add({
     targets: '.welcome_text h2',
-    top: ['-150%','-50%'],
+    top: ['-150%','50%'],
     easing: 'easeOutQuad',
     offset: '-=600',
     duration: '700',
