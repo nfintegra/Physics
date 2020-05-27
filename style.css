@@ -1,4 +1,5 @@
-* { padding: 0;
+* { 
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -14,13 +15,14 @@ section{
 }
 .cover {
     position: absolute;
-    width: 60%;
-    height: 60%;
     background-color: white;
+    width: 60%;
+    z-index: 2;
+    height: -60%;
 }
 
 .content{
-    background-color: 161516;
+    background-color: #161516;
     height:100%;
     width:100%;
     position: absolute;
@@ -44,5 +46,5 @@ section{
     left: 50%;
     top: -100%;
     color: white;
-    font-size: 4.3em;
+    font-size: 2.5em;
 }
