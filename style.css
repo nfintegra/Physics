@@ -6,6 +6,11 @@
 
 }
 
+h2{
+    font-size: 7em;
+    color: salmon;
+}
+
 section{
     overflow: hidden;
     position: relative;
@@ -16,7 +21,7 @@ section{
 .cover {
     position: absolute;
     background-color: white;
-    width: 60%;
+    width: 100%;
     z-index: 2;
     height: -60%;
 }
@@ -33,7 +38,7 @@ section{
 }
 
 .welcome_text{
-    width: 150px;
+    width: 500px;
     height:80px;
     overflow: hidden;
     text-align: center;
