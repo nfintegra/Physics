@@ -34,6 +34,14 @@ document.addEventListener('DOMContentLoaded', ()=>{
         duration: '400',
     })
     
+    .add({
+        target: '.welcome_text h2', 
+        top: ['50%', '100%'],
+        easing: ['easeOutQuad'],
+        offset: '+=1400',
+        duration: '800',
+        })
+
 
 
 

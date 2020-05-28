@@ -49,3 +49,12 @@ section{
     color: white;
     font-size: 6em;
 }
+
+.main_content h1{
+    position: absolute;;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: -100%;
+    color: white;
+    font-size: 8em;
+}
