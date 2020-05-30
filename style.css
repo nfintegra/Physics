@@ -50,6 +50,12 @@ section{
     font-size: 6em;
 }
 
+.main_content{
+width: 60%;
+color: white;
+display:none;
+}
+
 .main_content h1{
     position: absolute;;
     transform: translate(-50%, -50%);
